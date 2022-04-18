@@ -1,0 +1,150 @@
+ideo/* import google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Inter:wght@400;600&display=swap');
+/* input{
+  background-color: red;
+
+} */
+body{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.header{
+  background-color: pink;
+  display: flex;
+  direction: row;
+  justify-content: space-between;
+  margin: 84px;
+}
+
+#Title{
+  background-color: yellow;
+  font-family: 'Boogaloo', cursive;
+  font-size: 48px;
+  margin-left:272px;
+ 
+}
+
+/* button{
+  background-color: red;
+}
+ */
+
+.Box{
+  height: 500px;
+  width: 600px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  border-radius: 20px;
+  background: linear-gradient(to bottom right, #EE1D52, #69C9D0);
+  
+  
+}
+
+
+
+#submitVideo{
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: white;
+}
+#UserName{
+/*   margin-top: 10px; */
+  margin-bottom: 20px;
+
+  
+}
+.Input-Boxes{
+  display:flex;
+  flex-direction: column;
+  margin-top: 18px;
+  width: 72%;
+
+  
+}
+
+
+label{
+  font-size:16px;
+  font-weight:600;
+  color:white;
+}
+
+input{
+  font-size:16px;
+  border: 2px solid #69C9D0;
+  padding: 10px;
+  border-radius: 18px;
+  height: 35px;
+}
+#MyVideosButton{
+  background-color: #EE1D52;
+}
+
+
+.button{
+  font-family: 'Inter', sans-serif;
+  font-size:20px;
+  font-weight:600;
+  text-align: center;
+  align-items:center;
+  color:white;
+  background-color: #EE1D52;
+  opacity: 90%;
+  padding: 20px 25px;
+  border-radius: 20px;
+  # border: radial-gradient(black) 40;
+/*   width: 100%; */
+  
+}
+
+
+/*.button2{
+  font-family: 'Inter', sans-serif;
+  font-size:20px;
+  font-weight:600;
+  text-align: center;
+   align-items:center; 
+   justify-content:center; 
+  color:white;
+  background-color: #EE1D52;
+  opacity: 90%;
+  padding: 20px 25px;
+  border-radius: 20px;
+  # border: radial-gradient(black) 40;
+
+}*/
+
+
+.main{
+  background-color: grey;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content:center;
+  margin:140px;
+  height: 700px;
+  justify-content: center;
+
+}
+
+
+.continuebox{
+  display:flex;
+  justify-content: center;
+  
+}
+
+#continue{
+  padding: 20px 50px;
+}cd
+
+
+

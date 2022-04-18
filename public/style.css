@@ -48,12 +48,19 @@ body{
 }
 
 .sucessful{
+  font-family: 'Boogaloo', cursive;
+  display: inline-block;
+  flex-direction:row;
   background-color: white;
-  font-family: 'Inter', sans-serif;
   font-size: 24px;
   font-weight: 600;
-  margin-bottom: 25px;
+  margin: 90px;
+  width: 270px;
   
+}
+
+#EnteredName{
+  color:#EE1D52;
 }
 
 #submitVideo{
@@ -62,6 +69,9 @@ body{
   margin-bottom: 25px;
   color: white;
 }
+
+
+
 #UserName{
 /*   margin-top: 10px; */
   margin-bottom: 20px;

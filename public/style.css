@@ -47,7 +47,14 @@ body{
   
 }
 
-
+.sucessful{
+  background-color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  
+}
 
 #submitVideo{
   font-size: 24px;
@@ -106,21 +113,6 @@ input{
 }
 
 
-/*.button2{
-  font-family: 'Inter', sans-serif;
-  font-size:20px;
-  font-weight:600;
-  text-align: center;
-   align-items:center; 
-   justify-content:center; 
-  color:white;
-  background-color: #EE1D52;
-  opacity: 90%;
-  padding: 20px 25px;
-  border-radius: 20px;
-  # border: radial-gradient(black) 40;
-
-}*/
 
 
 .main{

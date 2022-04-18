@@ -18,13 +18,6 @@
 
 
 
-
-
-
-
-
-
-
 // include express
 const express = require("express");
 // create object to interface with express
@@ -40,12 +33,7 @@ app.use(function(req, res, next) {
   next();
 })
 
-// response after sending request
-// app.use(function(req, res){ 
-//   res.status(404); 
-//   res.type('txt'); 
-//   res.send('404 - File '+req.url+' not found'); 
-// });
+
 
 // make all the files in 'public' available 
 app.use(express.static("public"));
@@ -56,6 +44,12 @@ app.get("/", (request, response) => {
 });
 
 // Need to add response if page not found!
+
+app.use(function(req, res){ 
+  res.status(404); 
+  res.type('txt'); 
+  res.send('404 - File '+req.url+' not found'); 
+});
 
 // end of pipeline specification
 

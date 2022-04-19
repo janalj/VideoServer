@@ -12,7 +12,6 @@ continueButton.addEventListener("click",()=>{
   console.log("Printing conbinedString: ", conbinedString);
   sendPostRequest("/VideoData",conbinedString);
 
-  
 });
 
 

@@ -23,8 +23,6 @@ body{
   background-color: yellow;
   font-family: 'Boogaloo', cursive;
   font-size: 48px;
-  margin-left:272px;
- 
 }
 
 /* button{
@@ -123,15 +121,13 @@ input{
 }
 
 
-
-
 .main{
   background-color: grey;
   display:flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-content:center;
-  margin:140px;
+  margin:125px;
   height: 700px;
   justify-content: center;
 
@@ -146,7 +142,47 @@ input{
 
 #continue{
   padding: 20px 50px;
-}cd
+}
 
 
 
+@media (max-width: 900px){
+  .header{
+    width:70%;
+   margin-left: 15%;
+    min-width: 400px;
+  }
+  .Box {
+    width:100%;
+    min-width: 400px;
+  }
+  .main{
+    width:70%;
+    margin-left: 15%;
+  }
+
+  .Emp{
+    display:none;
+  }
+}
+
+
+@media (max-width: 750px){
+
+ #submitVideo{
+  font-size: 20px;
+  margin-bottom: 25px;
+  color: white;
+}
+
+#Title{
+  font-size: 32px;
+}
+.button{
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+  
+  
+}

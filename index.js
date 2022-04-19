@@ -5,19 +5,6 @@
 // This is our main server file
 
 
-
-// clicking continue button
-// let continueButton = document.getElementById("continue");
-// continueButton.addEventListener("click", buttonAction);
-
-// function buttonAction{
-//   let textArea = document.getElementById("UserName");
-// textArea.textContent = "Thank you for pushing the big red button";
-// }
-
-
-
-
 // include express
 const express = require("express");
 // create object to interface with express

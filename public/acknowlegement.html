@@ -15,58 +15,28 @@
 <body> 
 
 
-<!-- 1. flexbox layout 
-     2. mobile layout
-     3. overal color 
-     4. input text, set up fonts spects 
-     5. server side
-
-  
-  -->
  
     <!--     class header to wrap two elements. set flex box-->
  
-    <div class = "header">
-      <!-- Tiktok Title-->
-          <div id = "empty" class = "Emp">empty</div>
+    <div class = "header" style = "justify-content: center;">
           
         <!-- Tiktok Title-->
-          <div id = "Title">TikTok Pets</div>
+          <div id = "Title" >TikTok Pets</div>
     
-        <!-- My Videos Button-->
-          <div >
-            <button  class="button" id = "MyVideosButton" type = "button">My Videos</button>
-          </div>
-    
-          
+
   </div> <!--end header-->
         
    <div class = "main">
       <!-- Original TextEntry Box-->
-        <div class = "Box" id = "BeforeContinue" >
-          <h1 id = "submitVideo">Submit a Video:</h1>
-          <div class="Input-Boxes">
-            <label for="UserName">Username:</label>
-            
-            
-            <input type="text" id="UserName"  placeholder="awesometiktokuser123">
-           
-            <label for="TikTokURL">TikTok URL:</label>
-            
-            <input type="text" id="TikTokURL"  placeholder="http://tiktok.com/12345">
-            
-            <label for="VideoNickname">Video nickname:</label>
-            
-            <input type="text" id="VideoNickname"  placeholder="Bob the supercat">
-          </div>
-        </div>
-
-
-
-     
+  <div class = "submittedText">
+        <p >Video </p> 
+<!--      need to pass the data to here -->
+       <p id = "EnteredName"></p> 
+      <p style = "display: inline-block" >submitted successfully! </p> 
+  </div>
      <!--  Continue Button-->
       
-     <div class = "continuebox">
+     <div class = "continuebox" style = "margin-top: 50px">
      <div >
      
         <button class = "button"  id = "continueButton" type = "button">Continue</button>
@@ -74,6 +44,16 @@
      </div>
       
       </div> <!--end main-->
+          </div>
+        </div>
+
+<!--      After Click Continue  -->
+
+     
+
+
+     
+
      
          
   

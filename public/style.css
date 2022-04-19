@@ -25,10 +25,7 @@ body{
   font-size: 48px;
 }
 
-/* button{
-  background-color: red;
-}
- */
+
 
 .Box{
   height: 500px;
@@ -183,6 +180,19 @@ input{
   padding: 10px 15px;
   border-radius: 10px;
 }
+
+  .submittedText{
+  font-size: 20px;
+}
   
-  
+}
+
+
+
+/* css for acknowledgement.html */
+
+.submittedText{
+  font-family: 'Boogaloo', cursive;
+  font-weight: 600;
+  font-size: 24px;
 }

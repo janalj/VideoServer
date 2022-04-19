@@ -26,6 +26,12 @@ const app = express();
 
 // Code in this section sets up an express pipeline
 
+// gets data out of HTTP request body 
+// and attaches it to the request object
+const bodyParser = require('body-parser');
+
+app.use(bodyParser.text());
+
 // print info about incoming HTTP request 
 // for debugging
 app.use(function(req, res, next) {
@@ -42,6 +48,16 @@ app.use(express.static("public"));
 app.get("/", (request, response) => {
   response.sendFile(__dirname + "/public/tiktokpets.html");
 });
+
+// This is where the server recieves and responds to POST requests
+app.post('/VideoData', function(req, res, next) {
+  console.log("Server recieved a post request at", req.url);
+  let text = req.body;
+  console.log("It contained this string:",text);
+  res.send("got POST");
+
+});
+
 
 // Need to add response if page not found!
 

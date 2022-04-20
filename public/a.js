@@ -20,9 +20,11 @@ continueButton.addEventListener("click",()=>{
 
   
   // sending post by calling the async fucnton
-  sendPostRequest("/VideoData",data);
-
-});
+  sendPostRequest("/VideoData",data)
+    .then(function(data){
+    window.location = "/acknowlegement.html";})
+ 
+    });
 
 
 
@@ -36,7 +38,7 @@ async function sendPostRequest(url,data) {
     body: JSON.stringify(data)});
   if (response.ok) {
     let data = await response.text();
-    window.location = "/acknowlegement.html";
+    console.log(data);
     return data;
   } else {
     throw Error(response.status);

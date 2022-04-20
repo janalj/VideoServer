@@ -17,7 +17,7 @@ const app = express();
 // and attaches it to the request object
 const bodyParser = require('body-parser');
 
-app.use(bodyParser.text());
+app.use(bodyParser.json());
 
 // print info about incoming HTTP request 
 // for debugging

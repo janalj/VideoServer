@@ -34,16 +34,18 @@ body{
 
 
 .Box{
-  height: 500px;
-  width: 540px;
-  margin: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Inter', sans-serif;
-  border-radius: 30px;
-  background: linear-gradient(to bottom right, #EE1D52, #69C9D0);
+  height: 439px;
+    width: 522px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    border-radius: 30px;
+    background: linear-gradient(to bottom right, #EE1D52, #69C9D0);
+    /* padding: 0px 0px; */
+    margin-top: -10%;
   
   
 }
@@ -106,6 +108,7 @@ input{
 }
 #MyVideosButton{
   background-color: #EE1D52;
+    width: max-content;
 }
 
 
@@ -158,16 +161,16 @@ input{
 @media  (max-width: 900px){
   .header{
   width: 80%;
+    padding: 0px 61px;
     margin-left: 10%;
     min-width: 400px;
     margin-bottom: 0%;
-    /* max-width: max-content; */
-    max-width: 900px;
+    max-width: max-content;
   }
   #Title{
     margin-left: 0px;
     text-align: start;
-    margin-right: 15px;
+    margin-right: 68px;
 }
     
   
@@ -179,16 +182,23 @@ input{
     margin-right: 0%;
     margin-top: -10%;
 }
+  #MyVideosButton{
+    background-color: #EE1D52;
+    width: max-content;
   }
+  
   .main{
-   width: 80%;
-    margin-left: 10%;
-  }
+  width: 80%;
+    margin-left: 18%;
+    max-width: fit-content;
+    min-width: 480px;
+}
+  
 
   .Emp{
     display:none;
   }
-}
+} /* end media query 900*/
 
 
 /*@media (max-width: 750px){
@@ -220,19 +230,19 @@ input{
   }
   .header{
         margin-bottom: 0%;
-    padding: 1px 1px;
+    padding: 1px 36px;
     margin-right: 10%;
-    margin-left: 10%;
+    /* margin-left: 15%; */
     max-width: 480px;
 
   }
   .main{
-        margin-left: 10%;
-    /* height: 30%; */
+        /*height: 30%; */
     padding: 1px 8px;
     min-width: 299px;
     margin-right: 15%;
     max-width: fit-content;
+    margin-left: 20%;
   }
   .Box{
     margin-top:-10%;
@@ -276,7 +286,114 @@ input{
     
   }
   
-}/*end media query 480
+}/*end media query 480*/
+
+ @media (max-width:280px){
+   body{
+    width:100%;
+    
+  }
+  .header{
+        margin-bottom: 0%;
+    padding: 1px 36px;
+    margin-right: 10%;
+    /* margin-left: 15%; */
+    max-width: 480px;
+
+  }
+  .main{
+        /*height: 30%; */
+    padding: 1px 8px;
+    min-width: 299px;
+    margin-right: 15%;
+    max-width: fit-content;
+    margin-left: 25%;
+  }
+  .Box{
+    margin-top:-10%;
+    
+  }
+  
+  #Title{
+    font-size: 28px;
+    margin-right: 25%;
+}
+  
+  #MyVideosButton{
+        margin-right: 0%;
+    margin-left: -55%;
+}
+  .Emp{
+    display:none;
+  }
+  #submitVideo{
+    font-size: 20px;
+  }
+  .Input-Boxes{
+    font-size:  16px;
+  }
+  #UserName{
+    font-size: 16px;
+  }
+  #TikTokURL{
+    font-size:  16px;
+  }
+  #VideoNickname{
+    font-size: 16px;
+  }
+  .button{
+    font-size: 16px;
+  }
+  .submittedText{
+    font-size:  18px;
+  }
+ }/*End media query 280*/
+
+/*@media  (max-width: 540px and min-width: 540px){
+  body{
+    width: 100%
+    
+  }
+  .header{
+  width: 80%;
+    padding: 1px 1px;
+    margin-left: 10%;
+    min-width: 400px;
+    margin-bottom: 0%;
+    max-width: max-content;
+  }
+  #Title{
+    margin-left: 0px;
+    text-align: start;
+    margin-right: 9px;
+}
+    
+  
+  .Box {
+       height: 65%;
+    width: 100%;
+    margin-left: 0%;
+    /* min-width: 400px; */
+    margin-right: 0%;
+    margin-top: -10%;
+}
+  /*#MyVideosButton{
+    background-color: #EE1D52;
+    width: max-content;
+  }
+  
+  .main{
+  width: 50%;
+    margin-left: 10%;
+    max-width: fit-content;
+    min-width: 425px;
+}
+  
+
+  .Emp{
+    display:none;
+  }
+}*/
 
 
 
@@ -286,6 +403,7 @@ input{
   font-family: 'Boogaloo', cursive;
   font-weight: 600;
   font-size: 24px;
+  margin-bottom: 25%;
 }
 #Title1{
   background-color: yellow;
@@ -303,7 +421,7 @@ input{
     justify-content: space-between;
     /* margin: 84px; */
     margin-bottom: 0%;
-    margin-top: 5%;
+    margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
     

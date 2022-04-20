@@ -158,7 +158,7 @@ input{
   width: 80%;
     margin-left: 10%;
     min-width: 400px;
-    margin-bottom: 20%;
+    margin-bottom: 0%;
     /* max-width: max-content; */
     max-width: 900px;
   }
@@ -240,13 +240,13 @@ input{
     font-size: 32px;
     margin-right: 25%;
 }
-  }
+  
   #MyVideosButton{
         margin-right: 0%;
     margin-left: 0%;
 }
     
-  }
+  
   .Emp{
     display:none;
   }
@@ -281,5 +281,15 @@ input{
   font-family: 'Boogaloo', cursive;
   font-weight: 600;
   font-size: 24px;
+}
+#Title1{
+  background-color: yellow;
+  font-family: 'Boogaloo', cursive;
+  font-size: 48px;
+  margin-left: 190px;
+  margin-right: 75px;
+  width: 100%;
+/*   text-align: center; */
+  
 }
 

@@ -1,6 +1,8 @@
 ideo/* import google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Inter:wght@400;600&display=swap');
 
+
+/* drop Shadow  */
 body{
   width:100%;
   display: flex;
@@ -222,6 +224,7 @@ input{
     margin-right: 10%;
     margin-left: 10%;
     max-width: 480px;
+
   }
   .main{
         margin-left: 10%;
@@ -237,7 +240,7 @@ input{
   }
   
   #Title{
-    font-size: 32px;
+    font-size: 28px;
     margin-right: 25%;
 }
   
@@ -285,7 +288,7 @@ input{
 #Title1{
   background-color: yellow;
   font-family: 'Boogaloo', cursive;
-  font-size: 48px;
+  font-size: 20px;
   margin-left: 190px;
   margin-right: 75px;
   width: 100%;

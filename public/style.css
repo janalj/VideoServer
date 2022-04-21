@@ -10,7 +10,7 @@ body{
 }
 
 .header{
-  background-color: pink;
+/*   background-color: pink; */
   display: flex;
   direction: row;
   justify-content: space-between;
@@ -22,7 +22,7 @@ body{
 }
 
 #Title{
-  background-color: yellow;
+/*   background-color: yellow; */
   font-family: 'Boogaloo', cursive;
   font-size: 48px;
   margin-left: 190px;
@@ -121,7 +121,7 @@ input{
 
 
 .main{
-  background-color: grey;
+/*   background-color: grey; */
   display:flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -140,6 +140,7 @@ input{
 .continuebox{
   display:flex;
   justify-content: center;
+  margin-left:10%;
 
 }
 
@@ -178,7 +179,7 @@ input{
     display:none;
   }
   #Title1{
-        background-color: yellow;
+/*         background-color: yellow; */
     font-family: 'Boogaloo', cursive;
     font-size: 20px;
     margin-left: 0%;
@@ -273,7 +274,7 @@ input{
     margin-top:-20%;
   }
   #Title1{
-    background-color: yellow;
+/*     background-color: yellow; */
     font-family: 'Boogaloo', cursive;
     font-size: 20px;
     margin-left: 20%;
@@ -296,7 +297,7 @@ input{
   margin-left:-15%;
 }
 #Title1{
-  background-color: yellow;
+/*   background-color: yellow; */
     font-family: 'Boogaloo', cursive;
     font-size: 20px;
     margin-left: 0%;

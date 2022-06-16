@@ -23,7 +23,6 @@ continueButton.addEventListener("click",()=>{
   sendPostRequest("/VideoData",data)
     .then(function(data){
     window.location = "/acknowlegement.html";})
- 
     });
 
 
